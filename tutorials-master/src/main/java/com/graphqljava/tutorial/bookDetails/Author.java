@@ -3,6 +3,9 @@ package com.graphqljava.tutorial.bookDetails;
 import java.util.Arrays;
 import java.util.List;
 
+import org.springframework.web.context.request.RequestAttributes;
+import org.springframework.web.context.request.RequestContextHolder;
+
 public class Author {
     private String id;
     private String firstName;
@@ -39,8 +42,11 @@ public class Author {
     }
 
     public String getSsn() {
+    if (Boolean.TRUE.equals(RequestContextHolder.getRequestAttributes().getAttribute("isAdmin", RequestAttributes.SCOPE_REQUEST))) {
         return ssn;
     }
+    return null; // Or you can return a masked version of the SSN, or whatever you prefer
+}
     public static List<Author> getAllAuthors() {
         return authors;
     }
