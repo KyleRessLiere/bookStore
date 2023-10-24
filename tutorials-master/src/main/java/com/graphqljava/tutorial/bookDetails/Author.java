@@ -41,4 +41,7 @@ public class Author {
     public String getSsn() {
         return ssn;
     }
+    public static List<Author> getAllAuthors() {
+        return authors;
+    }
 }
