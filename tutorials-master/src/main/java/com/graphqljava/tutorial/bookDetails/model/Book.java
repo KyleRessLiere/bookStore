@@ -2,16 +2,19 @@ package com.graphqljava.tutorial.bookDetails.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-
-import java.util.Arrays;
-import java.util.List;
+import org.springframework.data.mongodb.core.mapping.Field;
 
 @Document(collection = "book")
 public class Book {
     @Id
     private String id;
+
     private String name;
+
+    @Field("page_count")
     private int pageCount;
+
+    @Field("author_id")
     private String authorId;
 
     public Book() {
@@ -22,16 +25,6 @@ public class Book {
         this.name = name;
         this.pageCount = pageCount;
         this.authorId = authorId;
-    }
-
-    private static List<Book> books = Arrays.asList(
-            new Book("book-1", "Harry Potter and the Philosopher's Stone", 223, "author-1"),
-            new Book("book-2", "Moby Dick", 635, "author-2"),
-            new Book("book-3", "Interview with the vampire", 371, "author-3")
-    );
-
-    public static Book getById(String id) {
-        return books.stream().filter(book -> book.getId().equals(id)).findFirst().orElse(null);
     }
 
     public String getId() {

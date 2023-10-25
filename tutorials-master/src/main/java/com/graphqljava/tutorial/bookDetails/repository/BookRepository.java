@@ -3,6 +3,11 @@ package com.graphqljava.tutorial.bookDetails.repository;
 import com.graphqljava.tutorial.bookDetails.model.Book;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
+import java.util.List;
+import java.util.Optional;
+
 public interface BookRepository extends MongoRepository<Book, String> {
-    // Define custom queries or methods if needed
+    List<Book> findAll();
+    Optional<Book> findById(String id);
+    // Add other custom query methods if needed
 }
