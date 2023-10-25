@@ -1,0 +1,102 @@
+[
+  {
+    "firstName": "J.K.",
+    "lastName": "Rowling",
+    "ssn": "123-45-6789"
+  },
+  {
+    "firstName": "Herman",
+    "lastName": "Melville",
+    "ssn": "987-65-4321"
+  },
+  {
+    "firstName": "Anne",
+    "lastName": "Rice",
+    "ssn": "111-22-3333"
+  },
+  {
+    "firstName": "George",
+    "lastName": "Orwell",
+    "ssn": "555-66-7777"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Austen",
+    "ssn": "444-33-2222"
+  },
+  {
+    "firstName": "F. Scott",
+    "lastName": "Fitzgerald",
+    "ssn": "888-99-0000"
+  },
+  {
+    "firstName": "Leo",
+    "lastName": "Tolstoy",
+    "ssn": "666-11-9999"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Bronte",
+    "ssn": "777-22-1111"
+  },
+  {
+    "firstName": "Mark",
+    "lastName": "Twain",
+    "ssn": "999-88-7777"
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Dickens",
+    "ssn": "333-22-1111"
+  },
+  {
+    "firstName": "Edgar Allan",
+    "lastName": "Poe",
+    "ssn": "222-11-3333"
+  },
+  {
+    "firstName": "Agatha",
+    "lastName": "Christie",
+    "ssn": "777-66-5555"
+  },
+  {
+    "firstName": "Stephen",
+    "lastName": "King",
+    "ssn": "555-44-3333"
+  },
+  {
+    "firstName": "Mary",
+    "lastName": "Shelley",
+    "ssn": "333-44-5555"
+  },
+  {
+    "firstName": "Arthur",
+    "lastName": "Conan Doyle",
+    "ssn": "666-55-4444"
+  },
+  {
+    "firstName": "Charlotte",
+    "lastName": "Bronte",
+    "ssn": "444-66-7777"
+  },
+  {
+    "firstName": "Virginia",
+    "lastName": "Woolf",
+    "ssn": "999-22-1111"
+  },
+  {
+    "firstName": "H.G.",
+    "lastName": "Wells",
+    "ssn": "111-44-6666"
+  },
+  {
+    "firstName": "Ernest",
+    "lastName": "Hemingway",
+    "ssn": "888-44-2222"
+  },
+  {
+    "firstName": "Harper",
+    "lastName": "Lee",
+    "ssn": "555-22-8888"
+  }
+]

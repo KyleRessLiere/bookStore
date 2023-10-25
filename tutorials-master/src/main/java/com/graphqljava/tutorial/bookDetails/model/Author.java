@@ -1,16 +1,23 @@
 package com.graphqljava.tutorial.bookDetails.model;
 
-import java.util.Arrays;
-import java.util.List;
-
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
 
+import java.util.Arrays;
+import java.util.List;
+
+@Document(collection = "author")
 public class Author {
+    @Id
     private String id;
     private String firstName;
     private String lastName;
     private String ssn;
+
+    public Author() {
+    }
 
     public Author(String id, String firstName, String lastName, String ssn) {
         this.id = id;
@@ -42,11 +49,12 @@ public class Author {
     }
 
     public String getSsn() {
-    if (Boolean.TRUE.equals(RequestContextHolder.getRequestAttributes().getAttribute("isAdmin", RequestAttributes.SCOPE_REQUEST))) {
-        return ssn;
+        if (Boolean.TRUE.equals(RequestContextHolder.getRequestAttributes().getAttribute("isAdmin", RequestAttributes.SCOPE_REQUEST))) {
+            return ssn;
+        }
+        return null;
     }
-    return null; // Or you can return a masked version of the SSN, or whatever you prefer
-}
+
     public static List<Author> getAllAuthors() {
         return authors;
     }

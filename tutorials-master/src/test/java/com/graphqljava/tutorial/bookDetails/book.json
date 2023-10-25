@@ -1,0 +1,122 @@
+[
+  {
+    "bookId": "book-1",
+    "name": "Harry Potter and the Philosopher's Stone",
+    "pageCount": 223,
+    "authorId": "author-1"
+  },
+  {
+    "bookId": "book-2",
+    "name": "Moby Dick",
+    "pageCount": 635,
+    "authorId": "author-2"
+  },
+  {
+    "bookId": "book-3",
+    "name": "Interview with the Vampire",
+    "pageCount": 371,
+    "authorId": "author-3"
+  },
+  {
+    "bookId": "book-4",
+    "name": "1984",
+    "pageCount": 328,
+    "authorId": "author-4"
+  },
+  {
+    "bookId": "book-5",
+    "name": "Pride and Prejudice",
+    "pageCount": 279,
+    "authorId": "author-5"
+  },
+  {
+    "bookId": "book-6",
+    "name": "The Great Gatsby",
+    "pageCount": 180,
+    "authorId": "author-6"
+  },
+  {
+    "bookId": "book-7",
+    "name": "War and Peace",
+    "pageCount": 1225,
+    "authorId": "author-7"
+  },
+  {
+    "bookId": "book-8",
+    "name": "Wuthering Heights",
+    "pageCount": 337,
+    "authorId": "author-8"
+  },
+  {
+    "bookId": "book-9",
+    "name": "The Adventures of Huckleberry Finn",
+    "pageCount": 366,
+    "authorId": "author-9"
+  },
+  {
+    "bookId": "book-10",
+    "name": "A Tale of Two Cities",
+    "pageCount": 341,
+    "authorId": "author-10"
+  },
+  {
+    "bookId": "book-11",
+    "name": "The Tell-Tale Heart",
+    "pageCount": 12,
+    "authorId": "author-11"
+  },
+  {
+    "bookId": "book-12",
+    "name": "Murder on the Orient Express",
+    "pageCount": 322,
+    "authorId": "author-12"
+  },
+  {
+    "bookId": "book-13",
+    "name": "The Shining",
+    "pageCount": 447,
+    "authorId": "author-13"
+  },
+  {
+    "bookId": "book-14",
+    "name": "Frankenstein",
+    "pageCount": 280,
+    "authorId": "author-14"
+  },
+  {
+    "bookId": "book-15",
+    "name": "Sherlock Holmes",
+    "pageCount": 572,
+    "authorId": "author-15"
+  },
+  {
+    "bookId": "book-16",
+    "name": "Jane Eyre",
+    "pageCount": 507,
+    "authorId": "author-16"
+  },
+  {
+    "bookId": "book-17",
+    "name": "To the Lighthouse",
+    "pageCount": 207,
+    "authorId": "author-17"
+  },
+  {
+    "bookId": "book-18",
+    "name": "The War of the Worlds",
+    "pageCount": 250,
+    "authorId": "author-18"
+  },
+  {
+    "bookId": "book-19",
+    "name": "The Old Man and the Sea",
+    "pageCount": 127,
+    "authorId": "author-19"
+  },
+  {
+    "bookId": "book-20",
+    "name": "To Kill a Mockingbird",
+    "pageCount": 281,
+    "authorId": "author-20"
+  }
+]
