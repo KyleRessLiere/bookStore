@@ -1,4 +1,4 @@
-package com.graphqljava.tutorial.bookDetails;
+package com.graphqljava.tutorial.bookDetails.auth;
 
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;

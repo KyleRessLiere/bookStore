@@ -1,4 +1,4 @@
-package com.graphqljava.tutorial.bookDetails;
+package com.graphqljava.tutorial.bookDetails.auth;
 
 import javax.servlet.FilterChain;
 import javax.servlet.http.HttpServletRequest;

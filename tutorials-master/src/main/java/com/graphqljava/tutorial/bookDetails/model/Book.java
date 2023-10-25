@@ -1,4 +1,4 @@
-package com.graphqljava.tutorial.bookDetails;
+package com.graphqljava.tutorial.bookDetails.model;
 
 import java.util.Arrays;
 import java.util.List;
