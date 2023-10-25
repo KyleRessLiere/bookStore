@@ -9,10 +9,10 @@ public class Author {
     @Id
     private String id;
     
-    @Field("first_name")
+    @Field("firstName")
     private String firstName;
     
-    @Field("last_name")
+    @Field("lastName")
     private String lastName;
     
     private String ssn;

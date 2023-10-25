@@ -8,12 +8,12 @@ import org.springframework.data.mongodb.core.mapping.Field;
 public class Book {
     @Id
     private String id;
-
+    
     private String name;
-
+    
     @Field("page_count")
     private int pageCount;
-
+    
     @Field("author_id")
     private String authorId;
 

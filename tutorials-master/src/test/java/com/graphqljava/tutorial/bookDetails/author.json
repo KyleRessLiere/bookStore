@@ -1,120 +1,120 @@
 [
   {
-    "id": "author-1",
+    "authorId": "author-1",
     "firstName": "J.K.",
     "lastName": "Rowling",
     "ssn": "123-45-6789"
   },
   {
-    "id": "author-2",
+    "authorId": "author-2",
     "firstName": "Herman",
     "lastName": "Melville",
     "ssn": "987-65-4321"
   },
   {
-    "id": "author-3",
+    "authorId": "author-3",
     "firstName": "Anne",
     "lastName": "Rice",
     "ssn": "111-22-3333"
   },
   {
-    "id": "author-4",
+    "authorId": "author-4",
     "firstName": "George",
     "lastName": "Orwell",
     "ssn": "555-66-7777"
   },
   {
-    "id": "author-5",
+    "authorId": "author-5",
     "firstName": "Jane",
     "lastName": "Austen",
     "ssn": "444-33-2222"
   },
   {
-    "id": "author-6",
+    "authorId": "author-6",
     "firstName": "F. Scott",
     "lastName": "Fitzgerald",
     "ssn": "888-99-0000"
   },
   {
-    "id": "author-7",
+    "authorId": "author-7",
     "firstName": "Leo",
     "lastName": "Tolstoy",
     "ssn": "666-11-9999"
   },
   {
-    "id": "author-8",
+    "authorId": "author-8",
     "firstName": "Emily",
     "lastName": "Bronte",
     "ssn": "777-22-1111"
   },
   {
-    "id": "author-9",
+    "authorId": "author-9",
     "firstName": "Mark",
     "lastName": "Twain",
     "ssn": "999-88-7777"
   },
   {
-    "id": "author-10",
+    "authorId": "author-10",
     "firstName": "Charles",
     "lastName": "Dickens",
     "ssn": "333-22-1111"
   },
   {
-    "id": "author-11",
+    "authorId": "author-11",
     "firstName": "Edgar Allan",
     "lastName": "Poe",
     "ssn": "222-11-3333"
   },
   {
-    "id": "author-12",
+    "authorId": "author-12",
     "firstName": "Agatha",
     "lastName": "Christie",
     "ssn": "777-66-5555"
   },
   {
-    "id": "author-13",
+    "authorId": "author-13",
     "firstName": "Stephen",
     "lastName": "King",
     "ssn": "555-44-3333"
   },
   {
-    "id": "author-14",
+    "authorId": "author-14",
     "firstName": "Mary",
     "lastName": "Shelley",
     "ssn": "333-44-5555"
   },
   {
-    "id": "author-15",
+    "authorId": "author-15",
     "firstName": "Arthur",
     "lastName": "Conan Doyle",
     "ssn": "666-55-4444"
   },
   {
-    "id": "author-16",
+    "authorId": "author-16",
     "firstName": "Charlotte",
     "lastName": "Bronte",
     "ssn": "444-66-7777"
   },
   {
-    "id": "author-17",
+    "authorId": "author-17",
     "firstName": "Virginia",
     "lastName": "Woolf",
     "ssn": "999-22-1111"
   },
   {
-    "id": "author-18",
+    "authorId": "author-18",
     "firstName": "H.G.",
     "lastName": "Wells",
     "ssn": "111-44-6666"
   },
   {
-    "id": "author-19",
+    "authorId": "author-19",
     "firstName": "Ernest",
     "lastName": "Hemingway",
     "ssn": "888-44-2222"
   },
   {
-    "id": "author-20",
+    "authorId": "author-20",
     "firstName": "Harper",
     "lastName": "Lee",
     "ssn": "555-22-8888"
